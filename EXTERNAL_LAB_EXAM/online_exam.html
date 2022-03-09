@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE EXAM</title>
+</head>
+<body bgcolor="yellow">
+    <h1 align="center"><u>ONLINE EXAM
+          
+    </u></h1>
+    <label><h3>1:What is HTML?</h3></label>
+    <input type="radio" name="q1" id="a">hyper text markup language<br>
+    <input type="radio" name="q1" >hyper text makeup language<br>
+    <input type="radio" name="q1" >hyper text math language<br>
+    <input type="radio" name="q1" >high text markup language<br>
+    <label><h3>2:What is 10+5=?</h3></label>
+    <input type="radio" name="q2" id="b">15<br>
+    <input type="radio" name="q2" >16<br>
+    <input type="radio" name="q2" >17<br>
+    <input type="radio" name="q2" >10<br>
+    <label><h3>3:which  is not a opp's concept?</h3></label>
+    <input type="radio" name="q3" >inheritance<br>
+    <input type="radio" name="q3" >class<br>
+    <input type="radio" name="q3" id="c">english<br>
+    <input type="radio" name="q3" >message passing<br>
+    <label><h3>4:what is  PHP refered to as?</h3></label>
+    <input type="radio" name="q4" >hyper prosessor<br>
+    <input type="radio" name="q4" >hyper text<br>
+    <input type="radio" name="q4" >platform home processpr<br>
+    <input type="radio" name="q4" id="d">hypertext preprocessor<br>
+    <label><h3>5:What is OOP'S full form?</h3></label>
+    <input type="radio" name="q5" id="e">object orienend programing<br>
+    <input type="radio" name="q5" >object programming<br>
+    <input type="radio" name="q5" >programing framework<br>
+    <input type="radio" name="q5" >platform object<br>
+    <br>
+    <input type="button" value="submit" onclick="fn1()">
+</body>
+<script>
+    function fn1()
+       {
+           var score=0;    
+           if(document.getElementById("a").checked)
+               {
+                 score++;
+               }
+           if(document.getElementById("b").checked)
+               {
+                 score++;
+               }
+           if(document.getElementById("c").checked)
+            {
+                 score++;
+               }
+           if(document.getElementById("d").checked)
+               {
+                 score++;
+               }
+           if(document.getElementById("e").checked)
+               {
+                 score++;
+               }
+        document.write("score=",score);
+
+       }
+</script>
+</html>
